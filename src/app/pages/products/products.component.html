@@ -2,7 +2,13 @@
     <div class="row">
         <div class="col">
             <h4 class="fw-bold">All Products <span class="lead">( {{products.length}} items )</span></h4>
-
+            <h5 class="d-md-none d-sm-block">
+                <span role="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight">
+                    <i class="fas fa-filter"></i>
+                    <span class="ms-2 text-lead">Apply Filters</span>
+                </span>
+            </h5>
         </div>
         <div class="col-auto">
             <p>Sort by:
@@ -32,3 +38,15 @@
         </div>
     </div>
 </section>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">
+            <i class="fas fa-filter"></i>
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <app-filter></app-filter>
+    </div>
+</div>
