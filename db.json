@@ -1,0 +1,214 @@
+{
+    "products": [
+        {
+            "name": "Best Wood Furniture",
+            "image": "https://images.pexels.com/photos/280471/pexels-photo-280471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "colors": [
+                "black",
+                "aliceblue",
+                "pink"
+            ],
+            "description": "Best Wood Furniture",
+            "originalPrice": 1750,
+            "discountedPrice": 1529,
+            "discountPercentage": 44,
+            "showDiscount": true
+        },
+        {
+            "name": "Best Wood Furniture",
+            "image": "https://images.pexels.com/photos/280471/pexels-photo-280471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "colors": [
+                "black",
+                "aliceblue",
+                "pink"
+            ],
+            "description": "Best Wood Furniture",
+            "originalPrice": 1750,
+            "discountedPrice": 1529,
+            "discountPercentage": 44,
+            "showDiscount": false
+        },
+        {
+            "name": "Best Wood Furniture",
+            "image": "https://images.pexels.com/photos/280471/pexels-photo-280471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "colors": [
+                "black",
+                "aliceblue",
+                "pink"
+            ],
+            "description": "Best Wood Furniture",
+            "originalPrice": 1750,
+            "discountedPrice": 1529,
+            "discountPercentage": 44,
+            "showDiscount": true
+        },
+        {
+            "name": "Best Wood Furniture",
+            "image": "https://images.pexels.com/photos/280471/pexels-photo-280471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "colors": [
+                "black",
+                "aliceblue",
+                "pink"
+            ],
+            "description": "Best Wood Furniture",
+            "originalPrice": 1750,
+            "discountedPrice": 1529,
+            "discountPercentage": 44,
+            "showDiscount": false
+        },
+        {
+            "name": "Best Wood Furniture",
+            "image": "https://images.pexels.com/photos/280471/pexels-photo-280471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "colors": [
+                "black",
+                "aliceblue",
+                "pink"
+            ],
+            "description": "Best Wood Furniture",
+            "originalPrice": 1750,
+            "discountedPrice": 1529,
+            "discountPercentage": 44,
+            "showDiscount": false
+        },
+        {
+            "name": "Best Wood Furniture",
+            "image": "https://images.pexels.com/photos/280471/pexels-photo-280471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "colors": [
+                "black",
+                "aliceblue",
+                "pink"
+            ],
+            "description": "Best Wood Furniture",
+            "originalPrice": 1750,
+            "discountedPrice": 1529,
+            "discountPercentage": 44,
+            "showDiscount": true
+        },
+        {
+            "name": "Best Wood Furniture",
+            "image": "https://images.pexels.com/photos/280471/pexels-photo-280471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "colors": [
+                "black",
+                "aliceblue",
+                "pink"
+            ],
+            "description": "Best Wood Furniture",
+            "originalPrice": 1750,
+            "discountedPrice": 1529,
+            "discountPercentage": 44,
+            "showDiscount": true
+        },
+        {
+            "name": "Best Wood Furniture",
+            "image": "https://images.pexels.com/photos/280471/pexels-photo-280471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "colors": [
+                "black",
+                "aliceblue",
+                "pink"
+            ],
+            "description": "Best Wood Furniture",
+            "originalPrice": 1750,
+            "discountedPrice": 1529,
+            "discountPercentage": 44,
+            "showDiscount": true
+        },
+        {
+            "name": "Best Wood Furniture",
+            "image": "https://images.pexels.com/photos/280471/pexels-photo-280471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "colors": [
+                "black",
+                "aliceblue",
+                "pink"
+            ],
+            "description": "Best Wood Furniture",
+            "originalPrice": 1750,
+            "discountedPrice": 1529,
+            "discountPercentage": 44,
+            "showDiscount": true
+        },
+        {
+            "name": "Best Wood Furniture",
+            "image": "https://images.pexels.com/photos/280471/pexels-photo-280471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "colors": [
+                "black",
+                "aliceblue",
+                "pink"
+            ],
+            "description": "Best Wood Furniture",
+            "originalPrice": 1750,
+            "discountedPrice": 1529,
+            "discountPercentage": 44,
+            "showDiscount": true
+        },
+        {
+            "name": "Best Wood Furniture",
+            "image": "https://images.pexels.com/photos/280471/pexels-photo-280471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "colors": [
+                "black",
+                "aliceblue",
+                "pink"
+            ],
+            "description": "Best Wood Furniture",
+            "originalPrice": 1750,
+            "discountedPrice": 1529,
+            "discountPercentage": 44,
+            "showDiscount": true
+        },
+        {
+            "name": "Best Wood Furniture",
+            "image": "https://images.pexels.com/photos/280471/pexels-photo-280471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "colors": [
+                "black",
+                "aliceblue",
+                "pink"
+            ],
+            "description": "Best Wood Furniture",
+            "originalPrice": 1750,
+            "discountedPrice": 1529,
+            "discountPercentage": 44,
+            "showDiscount": true
+        },
+        {
+            "name": "Best Wood Furniture",
+            "image": "https://images.pexels.com/photos/280471/pexels-photo-280471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "colors": [
+                "black",
+                "aliceblue",
+                "pink"
+            ],
+            "description": "Best Wood Furniture",
+            "originalPrice": 1750,
+            "discountedPrice": 1529,
+            "discountPercentage": 44,
+            "showDiscount": true
+        },
+        {
+            "name": "Best Wood Furniture",
+            "image": "https://images.pexels.com/photos/280471/pexels-photo-280471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "colors": [
+                "black",
+                "aliceblue",
+                "pink"
+            ],
+            "description": "Best Wood Furniture",
+            "originalPrice": 1750,
+            "discountedPrice": 1529,
+            "discountPercentage": 44,
+            "showDiscount": true
+        },
+        {
+            "name": "Best Wood Furniture",
+            "image": "https://images.pexels.com/photos/280471/pexels-photo-280471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "colors": [
+                "black",
+                "aliceblue",
+                "pink"
+            ],
+            "description": "Best Wood Furniture",
+            "originalPrice": 1750,
+            "discountedPrice": 1529,
+            "discountPercentage": 44,
+            "showDiscount": true
+        }
+    ]
+}

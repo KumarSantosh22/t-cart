@@ -1,0 +1,21 @@
+<section>
+    <ul class="list-unstyled mt-2 align-items-center">
+        <li class="my-1" *ngFor="let listItems of filterItems">
+            <p class="text-black fw-bold mb-1 mt-1">{{listItems.title}}</p>
+    
+            <ul class="list-unstyled m-0 p-0 align-items-center">
+                <li class="mb-1" *ngFor="let listItem of listItems.items">
+                    <p class="text-black">
+                        <input class="form-check-input" type="checkbox" value="" aria-label="Checkbox for following text input">
+                        {{listItem}}
+                    </p>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</section>
+
+<!-- Recommendation Section -->
+<section>
+
+</section>

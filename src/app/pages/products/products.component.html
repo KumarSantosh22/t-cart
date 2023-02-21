@@ -1,0 +1,34 @@
+<section>
+    <div class="row">
+        <div class="col">
+            <h4 class="fw-bold">All Products <span class="lead">( {{products.length}} items )</span></h4>
+
+        </div>
+        <div class="col-auto">
+            <p>Sort by:
+                Featured <i class="fas fa-angle-down"></i>
+            </p>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="row">
+        <div class="col-md-4 col-6 mb-4" *ngFor="let item of products">
+            <div class="card">
+                <img [src]="item.image" class="card-img-top" alt="product">
+                <div class="card-body">
+                    <div class="">
+                        <span class="rounded-circle p-1 px-3 me-1 border" [class.border-3]="i==0"
+                            [style.background]="colorOption" *ngFor="let colorOption of item.colors; let i=index;">
+                        </span>
+                    </div>
+                    <h5 class="card-title">{{item.name}}</h5>
+                    <p class="card-text">
+                        <span class="">${{item.discountedPrice}}</span>
+                        <span class="text-danger text-decoration-line-through mx-2">${{item.originalPrice}}</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

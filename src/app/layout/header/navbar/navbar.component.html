@@ -1,0 +1,119 @@
+<nav class="container">
+    <div class="row">
+        <div class="col-md-2 col">
+            <a class="navbar-brand" href="#">
+                <h1 class="nav-brand-text">TCart</h1>
+            </a>
+        </div>
+        <div class="col-md-8 d-md-block d-none">
+
+            <ul class="list-unstyled d-flex align-items-center justify-content-evenly">
+                <li>
+                    <div class="dropdown">
+                        <button class="btn btn-white border-none dropdown-toggle active-nav" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Home
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="d-md-block d-none">
+                    <div class="dropdown">
+                        <button class="btn btn-white border-none dropdown-toggle" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Shop
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="btn btn-white border-none dropdown-toggle" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Blog
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="btn btn-white border-none dropdown-toggle" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Pages
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="#">Contact</a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="col-md-2 col-auto">
+            <ul class="list-unstyled mt-2 d-flex align-items-center">
+                <li>
+                    <i class="fas fa-magnifying-glass fa-lg m-2"></i>
+                </li>
+                <li class="d-md-block d-none">
+                    <i class="far fa-heart fa-lg m-2"></i>
+                </li>
+                <li>
+                    <i class="fas fa-bag-shopping fa-lg m-2"></i>
+                </li>
+                <li class="d-sm-block d-md-none">
+                    <i role="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasStart"
+                        aria-controls="offcanvasStart" class="fas fa-bars fa-lg"></i>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="offcanvas offcanvas-start show" tabindex="-1" id="offcanvasStart" aria-labelledby="offcanvasLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasLabel">
+            <b>Menu</b>
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item" *ngFor="let item of navItems; let i=index;">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        [attr.data-bs-target]="'#panelsStayOpen-' + i" aria-expanded="true"
+                        [attr.aria-controls]="'panelsStayOpen-' + i">
+                        {{item.title}}
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-{{i}}" class="accordion-collapse collapse show"
+                    aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled mt-2 align-items-center">
+                            <li class="my-1" *ngFor="let listItem of item.items">
+                                <a href="" class="text-black">{{listItem}}</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
