@@ -1,3 +1,4 @@
+import { HttpService } from './http.service';
 import { Injectable } from '@angular/core';
 
 @Injectable({
@@ -5,5 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class DataService {
 
-  constructor() { }
+  constructor(
+    private http: HttpService
+  ) { }
 }
