@@ -3,15 +3,15 @@
         <div class="container">
             <div class="footer-widget-wrapper">
                 <div class="row justify-content-between">
-                    <div class="col-xl-2 col-lg-2 col-md-6 col-12 footer-widget">
+                    <div class="col-xl-2 col-lg-2 col-md-6 col-12 mt-2">
                         <div class="footer-widget-inner">
                             <h4 class="footer-heading d-flex align-items-center justify-content-between">
                                 <span>About</span>
                                 <span class="d-md-none">
-                                    <i class="fa-solid fa-angle-down"></i>
+                                    <i class="fa-solid fa-angle-down" (click)="showAbout=!showAbout"></i>
                                 </span>
                             </h4>
-                            <ul class="footer-menu list-unstyled mb-0 d-md-block">
+                            <ul class="footer-menu list-unstyled mb-0 d-md-block" *ngIf="showAbout">
                                 <li class="footer-menu-item"><a href="#">About us</a></li>
                                 <li class="footer-menu-item"><a href="#">Press center</a></li>
                                 <li class="footer-menu-item"><a href="blog.html">Our magazine</a></li>
@@ -20,15 +20,15 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-2 col-lg-2 col-md-6 col-12 footer-widget">
+                    <div class="col-xl-2 col-lg-2 col-md-6 col-12 mt-2">
                         <div class="footer-widget-inner">
                             <h4 class="footer-heading d-flex align-items-center justify-content-between">
                                 <span>Shopping</span>
                                 <span class="d-md-none">
-                                    <i class="fa-solid fa-angle-down"></i>
+                                    <i class="fa-solid fa-angle-down" (click)="showShopping=!showShopping"></i>
                                 </span>
                             </h4>
-                            <ul class="footer-menu list-unstyled mb-0 d-md-block">
+                            <ul class="footer-menu list-unstyled mb-0 d-md-block" *ngIf="showShopping">
                                 <li class="footer-menu-item"><a href="#">Brand catalog</a></li>
                                 <li class="footer-menu-item"><a href="#">Discount codes</a></li>
                                 <li class="footer-menu-item"><a href="collection-left-sidebar.html">Furniture</a></li>
@@ -37,15 +37,15 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-2 col-lg-2 col-md-6 col-12 footer-widget">
+                    <div class="col-xl-2 col-lg-2 col-md-6 col-12 mt-2">
                         <div class="footer-widget-inner">
                             <h4 class="footer-heading d-flex align-items-center justify-content-between">
                                 <span>Help</span>
                                 <span class="d-md-none">
-                                    <i class="fa-solid fa-angle-down"></i>
+                                    <i class="fa-solid fa-angle-down" (click)="showHelp=!showHelp"></i>
                                 </span>
                             </h4>
-                            <ul class="footer-menu list-unstyled mb-0 d-md-block">
+                            <ul class="footer-menu list-unstyled mb-0 d-md-block" *ngIf="showHelp">
                                 <li class="footer-menu-item"><a href="faq.html">Chair</a></li>
                                 <li class="footer-menu-item"><a href="#">Privacy policy</a></li>
                                 <li class="footer-menu-item"><a href="#">Support</a></li>
@@ -53,7 +53,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-5 col-md-6 col-12 footer-widget">
+                    <div class="col-xl-4 col-lg-5 col-md-6 col-12 mt-2">
                         <div class="footer-widget-inner">
                             <h4 class="footer-logo">
                                 <a href="/">
@@ -65,7 +65,7 @@
                                 <div class="newsletter-wrapper">
                                     <form action="#" class="footer-newsletter-form d-flex align-items-center">
                                         <div class="input-group mb-3">
-                                            <input type="email" class="form-control bg-transparent"
+                                            <input type="email" class="form-control bg-transparent text-white"
                                                 placeholder="Your e-mail" aria-label="Recipient's username"
                                                 aria-describedby="basic-addon2" autocomplete="off">
                                             <button class="input-group-text" id="basic-addon2">SIGN UP</button>

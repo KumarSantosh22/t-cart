@@ -20,3 +20,8 @@ footer{
 .active-nav{
     color: #e58393;
 }
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}

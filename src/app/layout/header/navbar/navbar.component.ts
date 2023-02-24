@@ -42,7 +42,9 @@ export class NavbarComponent {
     {
       title: 'Contact',
       items: [
-        'Contact'
+        'Action1',
+        'Action2',
+        'Action3'
       ]
     }
 
